@@ -12,7 +12,7 @@ PUBSUB_HOST: api.pubsub.salesforce.com
 # Pub/Sub API Host
 PUBSUB_PORT: 7443
 # Your Salesforce Login URL
-LOGIN_URL: null
+LOGIN_URL: https://thaihonda--dev.sandbox.lightning.force.com/
 
 # For authentication, you can use either username/password or accessToken/tenantId types.
 # Either one of the combinations is required. Please specify `null` values to the unused type.
@@ -21,15 +21,15 @@ USERNAME: null
 # Your Salesforce Password
 PASSWORD: null
 # Your Salesforce org Tenant ID
-TENANT_ID: null
+TENANT_ID: 00D0T0000000TEK
 # Your Salesforce Session Token
-ACCESS_TOKEN: null
+ACCESS_TOKEN: 00D0T0000000TEK!AQ8AQNUrqMFHykYTgLtgmlYTdSTLbENWje8pc6LxEDmercenzxrFeun905zXz.L3.FEb1ubHRFP.Pz0TCjFyC0_9_6pKs9u9
 
 # =========================
 # Optional configurations:
 # =========================
 # Topic to publish/subscribe to (default: /event/Order_Event__e)
-TOPIC: null
+TOPIC: /event/Voucher_Assigned_Event__e
 # Number of Events to publish in single or separate batches (default: 5)
 # Used only by PublishStream.java
 NUMBER_OF_EVENTS_TO_PUBLISH: null
